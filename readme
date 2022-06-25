@@ -1,0 +1,7 @@
+npm install dotenv --save
+
+Next add the following line to your app.
+
+require('dotenv').config()
+
+Then create a .env file at the root directory of your application and add the variables to it.
